@@ -34,7 +34,7 @@ export default function TaskFormPage() {
   return (
     <div className="add-task">
       <form onSubmit={onSubmit}>
-        <h1>ADD TASK</h1>
+        <h1 className="text-3xl font-bold mb-2">ADD TASK</h1>
         <input
           type="text"
           {...register("title")}
