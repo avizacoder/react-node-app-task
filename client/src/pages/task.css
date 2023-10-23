@@ -1,0 +1,35 @@
+.add-task {
+    width: 500px;
+    margin: 70px auto;
+    background: #454545;
+}
+
+.add-task form {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.add-task form input {
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    background: #606060;
+}
+
+.add-task form textarea {
+    height: 60px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    background: #606060;
+}
+
+.add-task form button {
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    background: #A9CCE3;
+}
